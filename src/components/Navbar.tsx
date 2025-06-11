@@ -80,7 +80,7 @@ export default function Navbar() {
               href="#contact"
               className="rounded-md bg-[#1F6FFF] px-4 py-2 text-sm font-medium text-white hover:opacity-90 transition-opacity"
             >
-              Let's Talk
+              Let&apos;s Talk
             </Link>
           </div>
         </div>

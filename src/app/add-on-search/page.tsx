@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function AddOnSearch() {
   return (
     <>
@@ -34,7 +32,7 @@ export default function AddOnSearch() {
               Who We Serve
             </h2>
             <p className="text-lg text-gray-200 mb-6 font-sans" style={{ fontFamily: 'var(--font-open-sans)' }}>
-              We partner with middle-market private equity backed portfolio companies pursuing strategic growth through acquisitions. Whether you're seeking a single game-changing acquisition or executing a high-volume buy-and-build strategy, our systematic approach delivers qualified opportunities that align with your strategic objectives.
+              We partner with middle-market private equity backed portfolio companies pursuing strategic growth through acquisitions. Whether you&apos;re seeking a single game-changing acquisition or executing a high-volume buy-and-build strategy, our systematic approach delivers qualified opportunities that align with your strategic objectives.
             </p>
           </div>
           <div>
@@ -172,7 +170,7 @@ export default function AddOnSearch() {
             Ready to Accelerate Your Growth Strategy?
           </h2>
           <p className="text-lg md:text-xl text-gray-700 mb-8 font-sans" style={{ fontFamily: 'var(--font-open-sans)' }}>
-            Let's discuss how our systematic add-on sourcing process can help you identify and engage the right acquisition targets for your growth objectives.
+            Let&apos;s discuss how our systematic add-on sourcing process can help you identify and engage the right acquisition targets for your growth objectives.
           </p>
           <a
             href="#contact"

@@ -206,7 +206,7 @@ export default function Home() {
                 <div className="font-semibold text-white font-serif" style={{ fontFamily: 'var(--font-ibm-plex-serif)' }}>— Scott Colvert, Trinity Hunt Partners</div>
               </div>
               <p className="text-white font-sans text-base" style={{ fontFamily: 'var(--font-open-sans)' }}>
-                "After working with several other buyside firms, we have found BowPoint to be a breath of fresh air. They are hard working, responsive, and recently sourced a new platform company for us in the healthcare services sector. They are great at helping us execute our buy-and-build strategies in targeted industry themes by sourcing both platform and add-on opportunities. BowPoint is a key pillar in our front-end origination efforts."
+                &quot;After working with several other buyside firms, we have found BowPoint to be a breath of fresh air. They are hard working, responsive, and recently sourced a new platform company for us in the healthcare services sector. They are great at helping us execute our buy-and-build strategies in targeted industry themes by sourcing both platform and add-on opportunities. BowPoint is a key pillar in our front-end origination efforts.&quot;
               </p>
             </div>
             {/* Testimonial 2 */}
@@ -216,7 +216,7 @@ export default function Home() {
                 <div className="font-semibold text-white font-serif" style={{ fontFamily: 'var(--font-ibm-plex-serif)' }}>— John Willert, Heartwood Partners</div>
               </div>
               <p className="text-white font-sans text-base" style={{ fontFamily: 'var(--font-open-sans)' }}>
-                "We retained BowPoint on the buyside to conduct a search and they delivered. BowPoint demonstrated an uncanny ability to deeply understand what makes us tick and then efficiently executed a process that resulted in an introduction to our newest deal. I would recommend BowPoint to all of my private equity colleagues who are looking for their next deal."
+                &quot;We retained BowPoint on the buyside to conduct a search and they delivered. BowPoint demonstrated an uncanny ability to deeply understand what makes us tick and then efficiently executed a process that resulted in an introduction to our newest deal. I would recommend BowPoint to all of my private equity colleagues who are looking for their next deal.&quot;
               </p>
             </div>
             {/* Testimonial 3 */}
@@ -226,7 +226,7 @@ export default function Home() {
                 <div className="font-semibold text-white font-serif" style={{ fontFamily: 'var(--font-ibm-plex-serif)' }}>— Jay Landauer, Union Capital</div>
               </div>
               <p className="text-white font-sans text-base" style={{ fontFamily: 'var(--font-open-sans)' }}>
-                "I have had the good fortune of working with Berlin and the BowPoint team for several years. BowPoint delivers results that exceed our extremely high expectations with the highest level of professionalism and consistency. I would highly recommend the firm to anyone."
+                &quot;I have had the good fortune of working with Berlin and the BowPoint team for several years. BowPoint delivers results that exceed our extremely high expectations with the highest level of professionalism and consistency. I would highly recommend the firm to anyone.&quot;
               </p>
             </div>
           </div>
