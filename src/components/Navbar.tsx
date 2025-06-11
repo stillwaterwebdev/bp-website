@@ -37,7 +37,7 @@ export default function Navbar() {
             {/* Services Dropdown */}
             <div 
               className="relative"
-              onMouseEnter={() => setIsServicesOpen(true)}
+              onMouseEnter={() => setIsServicesOpen(false)}
               onMouseLeave={() => setIsServicesOpen(false)}
             >
               <button
@@ -59,7 +59,7 @@ export default function Navbar() {
               </button>
               
               {isServicesOpen && (
-                <div className="absolute top-full left-0 mt-1 w-48 bg-[#0B1F3F] rounded-md shadow-lg py-2 z-50 border border-gray-600">
+                <div className="absolute top-full left-0 mt-0 w-48 bg-[#0B1F3F] rounded-md shadow-lg py-2 z-50 border border-gray-600">
                   <Link 
                     href="/add-on-search" 
                     className="block px-4 py-2 text-sm text-white hover:bg-[#1F6FFF] hover:text-white transition-colors"
