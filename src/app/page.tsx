@@ -177,7 +177,7 @@ export default function Home() {
                 </h3>
                 <ul className="space-y-3 text-gray-700 font-sans text-base pl-6 list-disc" style={{ fontFamily: 'var(--font-open-sans)' }}>
                   <li>#570 &amp; #692 on Inc. 5000 List - Inc. Magazine</li>
-                  <li>6-Time Winner "Best M&amp;A Provider" - SBM</li>
+                  <li>6-Time Winner &quot;Best M&amp;A Provider&quot; - SBM</li>
                   <li>40 Under 40 Dealmaker - The M&amp;A Advisor</li>
                   <li>40 Under 40 NACVA Certified Valuation Analysts</li>
                   <li>2-Time Winner Top 100 People to Know in Business</li>
