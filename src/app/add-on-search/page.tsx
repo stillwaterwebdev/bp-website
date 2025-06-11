@@ -4,7 +4,7 @@ export default function AddOnSearch() {
       {/* Hero Section */}
       <section className="relative min-h-[60vh] w-full flex items-center justify-center bg-cover bg-center" style={{ backgroundImage: 'url(/images/herobg.jpg)' }}>
         <div className="absolute inset-0 bg-black/50" />
-        <div className="relative z-10 text-center max-w-3xl px-4">
+        <div className="relative z-10 text-center max-w-4xl px-4">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-white mb-4" style={{ fontFamily: 'var(--font-ibm-plex-serif)' }}>
             Add-On Acquisition Sourcing &amp; Corporate Development Support
           </h1>
@@ -57,7 +57,7 @@ export default function AddOnSearch() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Add-On Acquisition Sourcing */}
-            <div className="bg-white rounded-lg shadow-sm p-6 flex flex-col">
+            <div className="bg-gray-50 rounded-lg shadow-sm p-6 flex flex-col">
               <h3 className="text-xl font-bold font-serif text-[#0B1F3F] mb-4" style={{ fontFamily: 'var(--font-ibm-plex-serif)' }}>
                 Add-On Acquisition Sourcing
               </h3>
@@ -66,7 +66,7 @@ export default function AddOnSearch() {
               </p>
             </div>
             {/* Corporate Development Support */}
-            <div className="bg-white rounded-lg shadow-sm p-6 flex flex-col">
+            <div className="bg-gray-50 rounded-lg shadow-sm p-6 flex flex-col">
               <h3 className="text-xl font-bold font-serif text-[#0B1F3F] mb-4" style={{ fontFamily: 'var(--font-ibm-plex-serif)' }}>
                 Corporate Development Support
               </h3>
@@ -75,7 +75,7 @@ export default function AddOnSearch() {
               </p>
             </div>
             {/* Market Research */}
-            <div className="bg-white rounded-lg shadow-sm p-6 flex flex-col">
+            <div className="bg-gray-50 rounded-lg shadow-sm p-6 flex flex-col">
               <h3 className="text-xl font-bold font-serif text-[#0B1F3F] mb-4" style={{ fontFamily: 'var(--font-ibm-plex-serif)' }}>
                 Market Research &amp; Analysis
               </h3>
@@ -94,11 +94,11 @@ export default function AddOnSearch() {
             Industry Focus Areas
           </h2>
           <div className="flex flex-col md:flex-row flex-wrap justify-center gap-6 text-gray-700 font-sans" style={{ fontFamily: 'var(--font-open-sans)' }}>
-            <div className="bg-gray-50 rounded-lg p-6 min-w-[220px] flex-1 text-left">Blue Collar Services</div>
-            <div className="bg-gray-50 rounded-lg p-6 min-w-[220px] flex-1 text-left">White Collar Services</div>
-            <div className="bg-gray-50 rounded-lg p-6 min-w-[220px] flex-1 text-left">Consumer Services</div>
-            <div className="bg-gray-50 rounded-lg p-6 min-w-[220px] flex-1 text-left">Distribution</div>
-            <div className="bg-gray-50 rounded-lg p-6 min-w-[220px] flex-1 text-left">Manufacturing</div>
+            <div className="bg-gray-50 rounded-lg p-6 min-w-[220px] flex-1 text-left shadow-sm font-semibold">Blue Collar Services</div>
+            <div className="bg-gray-50 rounded-lg p-6 min-w-[220px] flex-1 text-left shadow-sm font-semibold">White Collar Services</div>
+            <div className="bg-gray-50 rounded-lg p-6 min-w-[220px] flex-1 text-left shadow-sm font-semibold">Consumer Services</div>
+            <div className="bg-gray-50 rounded-lg p-6 min-w-[220px] flex-1 text-left shadow-sm font-semibold">Distribution</div>
+            <div className="bg-gray-50 rounded-lg p-6 min-w-[220px] flex-1 text-left shadow-sm font-semibold">Manufacturing</div>
           </div>
         </div>
       </section>
