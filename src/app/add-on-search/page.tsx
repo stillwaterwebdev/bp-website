@@ -6,7 +6,7 @@ export default function AddOnSearch() {
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 text-center max-w-3xl px-4">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-white mb-4" style={{ fontFamily: 'var(--font-ibm-plex-serif)' }}>
-            Buyside Addon Acquisition Search &amp; Deal Origination
+            Add-On Acquisition Sourcing &amp; Corporate Development Support
           </h1>
           <p className="text-xl md:text-2xl text-white font-sans font-bold mb-6" style={{ fontFamily: 'var(--font-open-sans)' }}>
             Systematic Growth Through Strategic Add-On Acquisitions
