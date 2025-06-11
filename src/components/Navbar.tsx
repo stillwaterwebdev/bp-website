@@ -40,7 +40,13 @@ export default function Navbar() {
               onMouseEnter={() => setIsServicesOpen(true)}
               onMouseLeave={() => setIsServicesOpen(false)}
             >
-              <button className="hover:text-[#1F6FFF] transition-colors flex items-center">
+              <button
+                className="hover:text-[#1F6FFF] transition-colors flex items-center focus:outline-none"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setIsServicesOpen((prev) => !prev);
+                }}
+              >
                 Services
                 <svg 
                   className={`ml-1 h-4 w-4 transition-transform ${isServicesOpen ? 'rotate-180' : ''}`}
@@ -57,18 +63,21 @@ export default function Navbar() {
                   <Link 
                     href="/add-on-search" 
                     className="block px-4 py-2 text-sm text-white hover:bg-[#1F6FFF] hover:text-white transition-colors"
+                    onClick={() => setIsServicesOpen(false)}
                   >
                     Add-On Search
                   </Link>
                   <Link 
                     href="#platform-search" 
                     className="block px-4 py-2 text-sm text-white hover:bg-[#1F6FFF] hover:text-white transition-colors"
+                    onClick={() => setIsServicesOpen(false)}
                   >
                     Platform Search
                   </Link>
                   <Link 
                     href="#platform-formation" 
                     className="block px-4 py-2 text-sm text-white hover:bg-[#1F6FFF] hover:text-white transition-colors"
+                    onClick={() => setIsServicesOpen(false)}
                   >
                     Platform Formation
                   </Link>
